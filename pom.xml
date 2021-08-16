@@ -16,6 +16,20 @@
 	<properties>
 		<java.version>16</java.version>
 	</properties>
+	<repositories>
+		<repository>
+			<id>private-repo</id>
+			<name>Private Repository</name>
+			<url>https://raw.githubusercontent.com/achtelik/homepage-backend/repository/</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>never</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
